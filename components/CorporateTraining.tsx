@@ -69,6 +69,10 @@ export default function CorporateTraining() {
         </div>
 
         <FadeUp className="mt-14">
+          <p className="mb-4 text-sm text-gray-500">
+            Pricing is customized per organization — contact for a custom
+            quote.
+          </p>
           <a
             href="#booking"
             className="inline-block border border-gold px-8 py-4 text-sm font-bold uppercase tracking-wide text-gold transition-all duration-200 hover:bg-gold hover:text-black"
