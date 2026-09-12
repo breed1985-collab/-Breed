@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #141414;
+  color: #ffffff;
+}
+
+/* Fade-up on scroll: toggled by IntersectionObserver in FadeUp.tsx */
+.fade-up-init {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.fade-up-visible {
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up-init {
+    opacity: 1;
+    transform: none;
+  }
+  .fade-up-visible {
+    animation: none;
+  }
+}
