@@ -10,7 +10,6 @@ the files are in place.
 | `about-placeholder.jpg` | About section photo | ✅ filled in |
 | `girl-lotion-your-elbows-cover.png` | Girl, Lotion Your Elbows cover | ✅ filled in |
 | `girl-fck-it-cover.png` | Girl, F*ck It cover | ✅ filled in |
-| `shadow-work-journal-cover-placeholder.jpg` | The Shadow Work Journal cover | ⬜ still needed — 2:3 portrait |
 
 Optimize images (compress, correct orientation) before dropping them in —
 Next.js will serve them as-is from `/public`.

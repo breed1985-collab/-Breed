@@ -17,15 +17,6 @@ const BOOKS = [
     videoSrc: null,
     amazonUrl: "https://a.co/d/0g6d5k20",
   },
-  {
-    title: "Girl, Lotion Your Elbows: The Shadow Work Journal",
-    description:
-      "This is not a gentle journal. The Shadow Work Journal is the companion to Girl, Lotion Your Elbows, built to take you past reading and into the writing that actually changes something. Four tiers of Mirrors in every chapter — Surface, Dig Deeper, Shadow, and Integration — move you from what you already know to the parts of yourself you've been managing around for months or years. This is where you stop nodding along and start doing the work.",
-    // Placeholder — swap in the real cover once it's ready.
-    coverSrc: "/images/shadow-work-journal-cover-placeholder.jpg",
-    videoSrc: null,
-    amazonUrl: "https://a.co/d/0goYNCrd",
-  },
 ];
 
 export default function GirlSeries() {
