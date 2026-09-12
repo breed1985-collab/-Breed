@@ -21,8 +21,8 @@ export default function Hero() {
           [Real talk.] <span className="text-gold">[Real change.]</span>
         </h1>
         <p className="mt-6 max-w-xl text-lg text-gray-400 md:text-xl">
-          [Subhead goes here — one or two lines on who you help and the
-          transformation you offer.]
+          Growth requires honesty, boundaries, action, and the courage to
+          choose yourself differently.
         </p>
         <a
           href="#booking"

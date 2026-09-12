@@ -1,7 +1,7 @@
 const ITEMS = [
-  "18+ Years in Human Services",
-  "Certified Life & Health Coach",
-  "Award-Winning Leader",
+  "15+ Years in Human Services",
+  "Certified Health & Life Coach",
+  "2026 Influential Women Honoree",
   "Author, The Girl Series",
 ];
 

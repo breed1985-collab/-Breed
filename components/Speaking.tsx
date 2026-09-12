@@ -1,11 +1,12 @@
 import FadeUp from "./FadeUp";
 
 const TOPICS = [
-  "[Speaking topic one goes here]",
-  "[Speaking topic two goes here]",
-  "[Speaking topic three goes here]",
-  "[Speaking topic four goes here]",
-  "[Speaking topic five goes here]",
+  "Motivational Interviewing",
+  "Leadership Development",
+  "Team Building",
+  "Compassion Fatigue",
+  "Personal Development",
+  "Behavior Change",
 ];
 
 export default function Speaking() {
@@ -14,8 +15,8 @@ export default function Speaking() {
       <div className="mx-auto max-w-5xl px-6 md:px-10">
         <FadeUp>
           <p className="font-serif text-3xl font-medium italic leading-snug text-white sm:text-4xl md:text-5xl">
-            &ldquo;[Pull-quote headline goes here — something bold about the
-            power of a room that&apos;s ready to change.]&rdquo;
+            &ldquo;Healing and accountability can exist in the same damn
+            room.&rdquo;
           </p>
         </FadeUp>
 

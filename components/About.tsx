@@ -17,17 +17,28 @@ export default function About() {
             About <span className="text-gold">Coach B</span>
           </h2>
           <p className="mt-6 text-base leading-relaxed text-gray-400 md:text-lg">
-            [Bio paragraph goes here. Introduce who Coach B is, the
-            background in human services, and the approach to coaching that
-            sets her apart — direct, compassionate, no-nonsense.]
+            Bernadette L. Reed is an award-winning author, Certified Health
+            &amp; Life Coach, nonprofit leader, speaker, and transformational
+            facilitator whose work centers on helping people move from
+            survival to self-awareness, accountability, and intentional
+            growth. With more than 15 years in human services, she&apos;s
+            built her career serving some of New York City&apos;s most
+            vulnerable populations — currently as a Program Director with
+            Urban Pathways, leading programs that address homelessness,
+            mental health, housing instability, and complex social needs.
           </p>
           <p className="mt-4 text-base leading-relaxed text-gray-400 md:text-lg">
-            [Second bio paragraph — credentials, mission, and who she serves
-            best.]
+            Her journey from frontline case management to program leadership
+            — grounded in a background in psychology — reinforced her belief
+            that meaningful transformation happens when people are given the
+            right combination of support, accountability, opportunity, and
+            practical tools. Her voice, honed across coaching, speaking, and
+            authorship, is compassionate, candid, humorous, and
+            unapologetically real.
           </p>
           <blockquote className="mt-8 border-l-2 border-gold pl-6 font-serif text-xl italic text-gold sm:text-2xl">
-            [Pull-quote goes here — a sharp, memorable line in her own
-            voice.]
+            &ldquo;She&apos;s interested in helping people build lives they no
+            longer need to escape from.&rdquo;
           </blockquote>
         </FadeUp>
       </div>

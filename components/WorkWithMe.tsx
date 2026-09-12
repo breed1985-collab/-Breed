@@ -4,17 +4,17 @@ const OFFERS = [
   {
     title: "1-on-1 Coaching",
     description:
-      "[One-line description of the personal coaching offer and who it's for.]",
+      "For the woman ready to stop performing and start choosing herself — honest, accountable coaching built on real support, real tools, and real change.",
   },
   {
     title: "Group Facilitation & Training",
     description:
-      "[One-line description of the group facilitation and training offer.]",
+      "Leadership development, team building, and behavior-change training grounded in 15+ years of human services experience.",
   },
   {
     title: "Corporate Motivational Interviewing Workshops",
     description:
-      "[One-line description of the corporate workshop offer and outcomes.]",
+      "Practical motivational interviewing skills for teams navigating compassion fatigue, complex needs, and real behavior change.",
   },
 ];
 
