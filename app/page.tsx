@@ -7,6 +7,7 @@ import GoalGetters from "@/components/GoalGetters";
 import CoachingPhilosophy from "@/components/CoachingPhilosophy";
 import ProgramFinder from "@/components/ProgramFinder";
 import Speaking from "@/components/Speaking";
+import CorporateTraining from "@/components/CorporateTraining";
 import GirlSeries from "@/components/GirlSeries";
 import Testimonials from "@/components/Testimonials";
 import Booking from "@/components/Booking";
@@ -25,6 +26,7 @@ export default function Home() {
         <CoachingPhilosophy />
         <ProgramFinder />
         <Speaking />
+        <CorporateTraining />
         <GirlSeries />
         <Testimonials />
         <Booking />
