@@ -23,7 +23,7 @@ export default function GirlSeries() {
             The Girl Series
           </span>
           <h2 className="mt-4 font-serif text-3xl font-bold text-white sm:text-4xl">
-            [Book title goes here]
+            Girl, Lotion Your Elbows
           </h2>
           <p className="mt-6 max-w-md text-base leading-relaxed text-gray-400 md:text-lg">
             [Short description of The Girl Series — what it&apos;s about, who
