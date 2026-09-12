@@ -91,6 +91,17 @@ export default function GoalGetters() {
           </div>
         </FadeUp>
 
+        {/* Goal Getters image — swap src for a local file in /public/images/ */}
+        <FadeUp className="mt-14">
+          <div
+            className="aspect-video w-full bg-cover bg-center"
+            style={{
+              backgroundImage: "url(/images/goal-getters-placeholder.jpg)",
+              backgroundColor: "#1a1a1a",
+            }}
+          />
+        </FadeUp>
+
         <FadeUp className="mt-16">
           <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
             The Six Modules

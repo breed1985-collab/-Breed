@@ -4,6 +4,7 @@ import IncludesList from "./IncludesList";
 const PACKAGES = [
   {
     name: "The Reset™",
+    image: "/images/package-reset.jpg",
     duration: "4-Week Private Coaching Package",
     price: "$397",
     paymentPlan: "or 2 payments of $210",
@@ -24,6 +25,7 @@ const PACKAGES = [
   },
   {
     name: "The Reclamation™",
+    image: "/images/package-reclamation.jpg",
     duration: "8-Week Private Coaching Package",
     price: "$697",
     paymentPlan: "or 2 payments of $365",
@@ -46,6 +48,7 @@ const PACKAGES = [
   },
   {
     name: "Breaking Cycles™",
+    image: "/images/package-breaking-cycles.jpg",
     duration: "12-Week Signature Private Coaching Experience",
     price: "$997",
     paymentPlan: "or 3 payments of $350",
@@ -111,6 +114,15 @@ export default function WorkWithMe() {
                   : "border-white/10 bg-surface"
               }`}
             >
+              {/* Package image — swap src for a local file in /public/images/ */}
+              <div
+                className="-mx-8 -mt-8 mb-6 aspect-[3/2] w-[calc(100%+4rem)] bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${pkg.image})`,
+                  backgroundColor: "#1a1a1a",
+                }}
+              />
+
               {pkg.signature && (
                 <span className="mb-4 inline-block w-fit bg-gold px-3 py-1 text-[10px] font-bold uppercase tracking-[0.15em] text-black">
                   Signature Program
